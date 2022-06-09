@@ -710,7 +710,7 @@ footer {
     }
 
     .container1 {
-        width: 100%;
+        width: 0%;
     }
 
     .container2 {
@@ -722,7 +722,7 @@ footer {
     }
 
     .container2 img {
-        width: 87vh;
+        width: 77vh;
     }
 
     .content1 {
@@ -735,7 +735,7 @@ footer {
     }
 
     .container3 {
-        width: 100%;
+        width: 0%;
     }
 
     .container4 {
@@ -950,18 +950,42 @@ footer {
 
 }
 
+@media screen and (max-width:1480px) {
+    .container2 img{
+        width: 69vh;
+    }
+
+}
 @media screen and (max-width:1130px) {
     .container2 img {
-        width: 72vh;
+        /* width: 82vh; */
+        width: 48vh;
     }
 }
 @media screen and (max-width:420px) {
     .container2 img {
-        width: 66vh;
+        width: 42vh;
+    }
+}
+@media screen and (max-width:530px) {
+    .content5{
+        padding: 0;
+    }
+    .card img {
+        width: 280px;
     }
 }
 
+
 @media screen and (max-width:350px) {
+
+    /* .card img {
+        width: 240px;
+    } */
+
+    .content5{
+        padding: 0;
+    }
     .fd3 {
         flex-direction: column;
         justify-content: center;
@@ -1011,7 +1035,7 @@ footer {
     }
 
     .container2 img {
-        width: 44vh;
+        width: 36vh;
     }
 
     .container7 h1 {
@@ -1035,10 +1059,6 @@ footer {
         text-align: center;
     }
 
-    .card img {
-        width: 280px;
-    }
-
     .card h3 {
         padding: 45px 10px 0px 10px;
         font-size: 15px;
@@ -1058,6 +1078,10 @@ footer {
 
     .contu button {
         margin: 8px 23px;
+    }
+
+    .card img {
+        width: 103px;
     }
 
 }
